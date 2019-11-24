@@ -27,5 +27,11 @@
         font-size: 1.4rem;
         color: white;
         font-weight: 300;
+
+        @mixin atMedium {
+            &.is-current-link {
+                color: #fabb69;
+            }
+        }
     }
 }
